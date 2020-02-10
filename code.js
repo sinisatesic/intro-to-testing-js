@@ -9,6 +9,16 @@ function helloWorld() {
 
 //the const function expression version is interchangeable with first function for helloWorld
 
-function sayHello(){
-    return "";
+// function sayHello(input) {
+//     if (input === "Alex"){
+//         return "Hello, Alex!";
+//     } else if (input === "Jane"){
+//         return "Hello, Jane!";
+//     } else {
+//         return "Hello, Pat!";
+//     }
+// }
+
+function sayHello(input) {
+    return "Hello, "+ input + "!";
 }
