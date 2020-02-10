@@ -10,5 +10,5 @@ function helloWorld() {
 //the const function expression version is interchangeable with first function for helloWorld
 
 function sayHello(){
-
+    return "";
 }
