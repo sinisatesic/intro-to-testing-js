@@ -20,7 +20,10 @@ function sayHello(input) {
    } else {
        return "Hello, " + input + "!";
    }
+}
 
+function isFive(input){
+    return parseFloat(input) === 5;
 }
 
 
@@ -97,3 +100,4 @@ function sayHello(input) {
 //         return false;
 //     }
 // }
+
