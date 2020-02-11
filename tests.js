@@ -30,5 +30,24 @@ describe('sayHello', function() {
     });
     it('sayHello("Pat") returns "Hello, Pat!"', function() {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
+    });
+    it('sayHello() returns "Hello, World!"', function(){
+        expect(sayHello()).toBe("Hello, World!");
+    });
+    it('sayHello(true) returns "Hello, World!"', function(){
+        expect(sayHello(true)).toBe("Hello, World!");
+    });
+    it('sayHello(false) returns "Hello, World!"', function(){
+        expect(sayHello(false)).toBe("Hello, World!");
     })
-})
+});
+
+
+
+
+// it('input === true returns "Hello, World!"', function() {
+//     expect(sayHello(true)).toBe("Hello, World!");
+// });
+// it('input === false returns "Hello, World!"', function() {
+//     expect(sayHello(false)).toBe("Hello, World!");
+// });
