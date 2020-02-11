@@ -105,7 +105,7 @@ function isEven(input) {
 }
 
 
-let isVowel = function (input) {
+function isVowel(input) {
 
     var vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
 
@@ -118,4 +118,15 @@ let isVowel = function (input) {
     return false;
 
 };
+
+
+function add(numberOne, numberTwo){
+    if(parseFloat(numberOne) + parseFloat(numberTwo)){
+        return parseFloat(numberOne) + parseFloat(numberTwo);
+    } else {
+        return NaN;
+    }
+}
+
+
 
