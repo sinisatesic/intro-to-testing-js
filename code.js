@@ -13,19 +13,14 @@ function helloWorld() {
 
 function sayHello(input) {
 
-   if(input === undefined || input === true){
-       return "Hello, World!";
-   } else if (input === false){
-       return "Hello, World!";
-   } else {
-       return "Hello, " + input + "!";
-   }
+    if (input === undefined || input === true) {
+        return "Hello, World!";
+    } else if (input === false) {
+        return "Hello, World!";
+    } else {
+        return "Hello, " + input + "!";
+    }
 }
-
-function isFive(input){
-    return parseFloat(input) === 5;
-}
-
 
 // function sayHello(input) {
 //     if (input === "Alex"){
@@ -100,4 +95,27 @@ function isFive(input){
 //         return false;
 //     }
 // }
+
+function isFive(input) {
+    return parseFloat(input) === 5;
+}
+
+function isEven(input) {
+    return parseFloat(input) % 2 == 0;
+}
+
+
+let isVowel = function (input) {
+
+    var vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+    for (var i = 0; i < vowels.length; i++) {
+        if (input === vowels[i]) {
+            return true;
+        }
+    }
+
+    return false;
+
+};
 
